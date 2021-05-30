@@ -1,0 +1,19 @@
+# spring
+spring:
+  application:
+    name: dubbo-provider
+# application
+example:
+  dubbo:
+    provider:
+      version: 1.0.0
+  nacos:
+    host: 127.0.0.1
+    port: 8848
+# dubbo
+dubbo:
+  registry:
+    address: nacos://${example.nacos.host}:${example.nacos.port}
+  protocol:
+    name: dubbo
+    port: -1 # random port

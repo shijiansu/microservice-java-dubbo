@@ -1,0 +1,16 @@
+# spring
+spring:
+  application:
+    name: dubbo-consumer
+# application
+example:
+  dubbo:
+    provider:
+      version: 1.0.0
+  nacos:
+    host: 127.0.0.1
+    port: 8848
+# dubbo
+dubbo:
+  registry:
+    address: nacos://${example.nacos.port}:${example.nacos.port}

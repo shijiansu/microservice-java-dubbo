@@ -1,0 +1,20 @@
+# spring
+spring:
+  application:
+    name: dubbo-provider
+# application
+example:
+  dubbo:
+    provider:
+      version: 1.0.0
+  zookeeper:
+    host: 127.0.0.1
+    port: 2181
+# dubbo
+dubbo:
+  registry:
+    address: zookeeper://${example.zookeeper.host}:${example.zookeeper.port}
+    file: ${user.home}/dubbo-cache/${spring.application.name}/dubbo.cache
+  protocol:
+    name: dubbo
+    port: -1 # random port
