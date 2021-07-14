@@ -1,8 +1,8 @@
 # dubbo-first-try
 
 ![](https://img.shields.io/badge/language-java-blue)
-![](https://img.shields.io/badge/technology-dubbo,%20spring%20boot,%20nacos,%20zookeeper-blue)
-![](https://img.shields.io/badge/development%20year-2021-orange)
+![](https://img.shields.io/badge/technology-dubbo,%20spring--boot2,%20docker,%20zookeeper,%20nacos-blue)
+![](https://img.shields.io/badge/development%20year-2020-orange)
 
 ![](https://img.shields.io/github/languages/top/shijiansu/dubbo-first-try)
 ![](https://img.shields.io/github/languages/count/shijiansu/dubbo-first-try)
@@ -12,10 +12,10 @@
 
 ## Outline
 
-- 1_dubbo-springboot2
-- 2_dubbo-springboot2-javaconfig
-- 3_dubbo-registry-zookeeper
-- 4_dubbo-registry-nacos
+- 1_dubbo-springboot2 - examples of dubbo spring boot starter, properties, no registry
+- 2_dubbo-springboot2-javaconfig - examples of dubbo spring boot starter, java config, no registry
+- 3_dubbo-registry-zookeeper - examples of dubbo registry with zookeeper, embedded zookepper, dubbo admin + standalone zookeeper docker
+- 4_dubbo-registry-nacos - examples of dubbo registry with nacos, standalone nacos (with derby) + prometheus + grafana docker
 
 ## How to start
 
